@@ -14,8 +14,10 @@ A Java-based console application that tracks real-time stock prices using the [F
 
 ---
 
-**Compile the code : **
-   javac -cp lib/gson-2.10.1.jar -d out src/*.java
+## How to Run:
 
-**Run the code : **
-   java -cp "out:lib/gson-2.10.1.jar" src.StockTracker
+**Compile the code**
+- javac -cp lib/gson-2.10.1.jar -d out src/*.java
+
+**Run the code**
+- java -cp "out:lib/gson-2.10.1.jar" src.StockTracker
