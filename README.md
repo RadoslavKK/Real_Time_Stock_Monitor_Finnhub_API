@@ -2,7 +2,7 @@
 
 A Java-based console application that tracks real-time stock prices using the [Finnhub API](https://finnhub.io/). It helps you monitor your portfolio, showing current prices, profit/loss, and time zone information.
 
-![Live Stock Price](docs/Live%20Stock%20Price.png)
+![Live Stock Price](docs/Live_Stock_Price.png)
 
 ## 🔧 Features
 
