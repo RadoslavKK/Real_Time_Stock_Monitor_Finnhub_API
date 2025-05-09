@@ -40,15 +40,15 @@ public class StockTracker {
 
         ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
 
-        stockList.add(new StockInfo("Amazon", "AMZN", 0, 0, 2, 3000.0, true));
-        stockList.add(new StockInfo("Apple", "AAPL", 0, 0, 5, 150.0, true));
+        stockList.add(new StockInfo("Amazon", "AMZN", 0, 0, 10, 300.0, true));
+        stockList.add(new StockInfo("Apple", "AAPL", 0, 0, 5, 150.56, true));
         stockList.add(new StockInfo("Boeing", "BA", 0, 0, 3, 210.0, true));
         stockList.add(new StockInfo("Coca-Cola", "KO", 0, 0, 12, 60.0, true));
         stockList.add(new StockInfo("Facebook", "META", 0, 0, 8, 200.0, true));
-        stockList.add(new StockInfo("Google", "GOOGL", 0, 0, 6, 2500.0, true));
+        stockList.add(new StockInfo("Google", "GOOGL", 0, 0, 6, 25.34, true));
         stockList.add(new StockInfo("Microsoft", "MSFT", 0, 0, 4, 280.0, true));
         stockList.add(new StockInfo("NVIDIA", "NVDA", 0, 0, 7, 400.0, true));
-        stockList.add(new StockInfo("Tesla", "TSLA", 0, 0, 10, 600.0, true));
+        stockList.add(new StockInfo("Tesla", "TSLA", 0, 0, 100, 6.09, true));
 
         Runnable task = () -> {
             try {
