@@ -4,6 +4,7 @@
 # Allow only these specific files and folders
 !.gitignore
 !README.md
+!.png
 
 # Allow source files
 !src/
