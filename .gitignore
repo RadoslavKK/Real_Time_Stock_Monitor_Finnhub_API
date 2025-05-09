@@ -1,10 +1,10 @@
 # Ignore everything by default
 *
 
-# Allow only these specific files and folders
+# Allow specific files and folders
 !.gitignore
 !README.md
-!.png
+!*.png
 
 # Allow source files
 !src/
@@ -17,3 +17,4 @@
 # Allow resources and config files
 !resources/
 !resources/*.txt
+!resources/*.png
